@@ -55,7 +55,7 @@ Your application needs a live, universally accessible database server for produc
    - Select **"Drivers"** under "Connect to your application".
    - Driver: `Python`, Version: `3.6 or later`.
    - Copy the connection string. It will look like this:
-     `mongodb+srv://admin:<password>@aiskillgapcluster.abcde.mongodb.net/?retryWrites=true&w=majority&appName=AiSkillGapCluster`
+     MONGO_URL=your_mongodb_connection_string
    - **Replace `<password>`** with the exact password you created in step 3. 
    - **Save this full URL securely in your notepad.** This is your `MONGO_URL`.
 
@@ -224,7 +224,7 @@ The deployment is live, but your production database is entirely empty. Let's pr
 3. Open your local `.env` file inside the `backend/` folder and comment out the local mongo URL, temporarily inserting the live Atlas URL:
    ```env
    # MONGO_URL=mongodb://localhost:27017/aigap
-   MONGO_URL=mongodb+srv://admin:yoursecretpassword@aiskillgapcluster.abcde.mongodb.net/?retryWrites=true&w=majority&appName=AiSkillGapCluster
+   MONGO_URL=mongodb+srv://<username>:<password>@<cluster-url>/?retryWrites=true&w=majority&appName=AiSkillGapCluster
    ```
 4. Run the database seed script:
    ```bash

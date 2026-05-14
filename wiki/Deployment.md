@@ -109,7 +109,7 @@ With the production backend live but the database empty, run the seed script loc
 cd backend
 
 # Temporarily point to production DB
-export MONGO_URL="mongodb+srv://admin:password@cluster.mongodb.net/..."
+export MONGO_URL="mongodb+srv://<username>:<password>@<cluster-url>/?retryWrites=true&w=majority"
 
 python seed.py
 
