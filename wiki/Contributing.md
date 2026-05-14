@@ -88,7 +88,7 @@ docs: update API reference for /predict-role
 
 ## Reporting Bugs
 
-Open a [GitHub Issue](https://github.com/Ayusohm432/AI-Skills-Gap-Analyzer/issues) with:
+Open a [GitHub Issue](https://github.com/Iqra-Fatima-07/SkillGapAI/) with:
 
 - A clear title.
 - Steps to reproduce.

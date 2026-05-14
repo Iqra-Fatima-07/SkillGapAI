@@ -163,7 +163,7 @@ Instead, use **`t3.small`** (2GB RAM) or **`t3.medium`** (4GB RAM). Your credits
     ```
 5.  **Clone and Run:**
     ```bash
-    git clone https://github.com/Ayusohm432/AI-Skills-Gap-Analyzer.git
+    git clone https://github.com/Iqra-Fatima-07/SkillGapAI.git
     cd ai-skill-gap/backend
     # Create your .env file
     nano .env

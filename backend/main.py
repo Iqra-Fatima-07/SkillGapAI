@@ -575,7 +575,7 @@ def read_root():
             </div>
 
             <footer>
-                Built by Ayush Kumar & Team &bull; Powered by FastAPI & Gemini AI
+                Built by Iqra & Team &bull; Powered by FastAPI & Gemini AI
             </footer>
         </div>
     </body>

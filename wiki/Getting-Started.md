@@ -24,7 +24,7 @@ This page guides you from a fresh checkout to a fully running local development 
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Ayusohm432/AI-Skills-Gap-Analyzer.git
+git clone https://github.com/Iqra-Fatima-07/SkillGapAI.git
 cd AI-Skills-Gap-Analyzer
 ```
 
